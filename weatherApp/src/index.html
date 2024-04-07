@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav section -->
+    <div class="bg-screen" style="background-image: url(../assets/4479370b84479ffd67fcae41cbfdefe8.png);"> 
+        <div class="flex justify-between pt-5 px-10">
+            <p class="font-[600] text-[17px] leading-[22px] tracking-[-0.41px] font-sans">1:41</p>
+            <div class="flex gap-2 -mr-2">
+                <img src="../assets/signal.svg" alt="signal">
+                <img src="../assets/wifi.svg" alt="wifi">
+                <img src="../assets/battery.svg" alt="battery">
+            </div>
+        </div>
+        <!-- weather section -->
+        <section class="flex flex-col w-full h-auto items-center pt-[86px]">
+            <p class="text-[34px] leading-[41px] tracking-[0.38px] font-sans font-[300]">Coimbatore</p>
+            <p class="text-[96px] leading-[70px] tracking-[0.37px] font-[400] font-serif pt-[15px]">19°</p>
+            <p class="text-[20px] font-serif leading-[24px] tracking-[0.38px] pt-[15px] opacity-60 text-[#EBEBF599]">Mostly Clear</p>
+            <div class="flex gap-4">
+                <p class="text-[20px] font-serif leading-[24px] tracking-[0.38px]">H:24°</p> 
+                <p class="text-[20px] font-serif leading-[24px] tracking-[0.38px]">L:18°</p>
+            </div>
+        </section>
+        <!-- house section -->
+        <section class="relative z-0">
+            <div class="flex justify-center pt-[15px]">
+                <img src="../assets/House 4 3.png" alt="house">
+            </div> 
+        </section>
+        <!-- below house section -->
+        <section>
+            <div class="relative z-1 h-[370px] w-full mt-[-162px] rounded-[44px] bg-gradient-to-br from-[#2E335A] backdrop-blur-[20px] border-t-[1px] shadow-inner-[2px]">
+                <div class="flex justify-center pt-[10px]">
+                    <svg width="48" height="5" viewBox="0 0 48 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="5" rx="2.5" fill="black" fill-opacity="0.3"/>
+                    </svg>
+                </div>
+                <div class="flex align-middle justify-between pt-5 px-4">
+                    <p class="font-[200] leading-[22px] tracking-[-0.41px] text-[17px] opacity-60">Hourly Forecast</p>
+                    <p class="font-[200] leading-[22px] tracking-[-0.41px] text-[17px] opacity-60">Weekly Forecast</p>
+                </div>
+                <hr class="drop-shadow-md mt-1">
+                <!-- Weather grid -->
+                <div class="flex justify-evenly">
+                    <div class="border border-opacity-20 bg-[#48319D]/20 h-[146px] w-[60px] mt-3 rounded-[30px]">
+                        <div class="flex flex-col items-center">
+                            <p class="text-[17px] leading-[22px] pt-4">12 AM</p>
+                            <img class="h-[32px] w-[32px] mt-2" src="../assets/Moon cloud mid rain.png" alt="rain">
+                            <p class="text-[#40CBD8] text-[11px] mt-[-7px]">30%</p>
+                            <p class="text-[17px] leading-[22px] pt-3">19°</p>
+                        </div>
+                    </div>
+                    <div class="border border-opacity-20 bg-[#48319D] h-[146px] w-[60px] mt-3 rounded-[30px]">
+                        <div class="flex flex-col items-center">
+                            <p class="text-[17px] leading-[22px] pt-4">NOW</p>
+                            <img class="h-[32px] w-[32px] mt-2" src="../assets/Moon cloud mid rain.png" alt="rain">
+                            <p class="text-[17px] leading-[22px] pt-[22px]">19°</p>
+                        </div>
+                    </div>
+                    <div class="border border-opacity-20 bg-[#48319D]/20 h-[146px] w-[60px] mt-3 rounded-[30px]">
+                        <div class="flex flex-col items-center">
+                            <p class="text-[17px] leading-[22px] pt-4">2 AM</p>
+                            <img class="h-[32px] w-[32px] mt-2" src="../assets/Moon cloud mid rain.png" alt="rain">
+                            <p class="text-[17px] leading-[22px] pt-[22px]">18°</p>
+                        </div>
+                    </div>
+                    <div class="border border-opacity-20 bg-[#48319D]/20 h-[146px] w-[60px] mt-3 rounded-[30px]">
+                        <div class="flex flex-col items-center">
+                            <p class="text-[17px] leading-[22px] pt-4">3 AM</p>
+                            <img class="h-[32px] w-[32px] mt-2" src="../assets/Moon cloud mid rain.png" alt="rain">
+                            <p class="text-[17px] leading-[22px] pt-[22px]">19°</p>
+                        </div>
+                    </div>
+                    <div class="border border-opacity-20 bg-[#48319D]/20 h-[146px] w-[60px] mt-3 rounded-[30px]">
+                        <div class="flex flex-col items-center">
+                            <p class="text-[17px] leading-[22px] pt-4">4 AM</p>
+                            <img class="h-[32px] w-[32px] mt-2" src="../assets/Moon cloud mid rain.png" alt="rain">
+                            <p class="text-[#40CBD8] text-[11px] mt-[-7px]">50%</p>
+                            <p class="text-[17px] leading-[22px] pt-3">19°</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative z-50 flex justify-around mt-[-100px] px-7 align-middle">
+                <img src="../assets/map.svg" alt="map">
+                <img class="ml-5" src="../assets/Frame 6.png" alt="button">
+                <img src="../assets/list.svg" alt="list">
+            </div>
+            <div class="relative z-10 mt-[-90px] flex justify-center ">
+                <svg width="287" height="88" viewBox="0 0 287 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_509_1711)">
+                    <path d="M134 0C198 2.96831e-05 99 0 176 0C238 0 216 88 276 88C338 88 -79.9742 88 20 88C94 88 72 -2.96831e-05 134 0Z" fill="url(#paint0_linear_509_1711)"/>
+                    <path d="M134 0.25L145.03 0.250006L145.031 0.250006L145.04 0.250006L145.075 0.250006L145.215 0.250007L145.748 0.250008L145.953 0.250004L150.125 0.250011L155.111 0.250013L156.592 0.250013L156.861 0.250013L156.868 0.250013L156.869 0.250013L156.869 0.250013C156.869 0.250009 156.869 0.250006 156.869 0.250003L176 0.25C191.429 0.25 201.613 5.72008 209.16 13.9193C216.721 22.1337 221.643 33.0937 226.521 44.1013L226.769 44.661C231.557 55.4655 236.345 66.2719 243.595 74.4162C249.682 81.2551 257.502 86.2148 268.497 87.75H268.258H267.789H267.313H266.831H266.342H265.846H265.344H264.835H264.319H263.797H263.269H262.734H262.193H261.645H261.092H260.532H259.966H259.393H258.815H258.231H257.64H257.044H256.442H255.834H255.22H254.601H253.975H253.344H252.708H252.065H251.418H250.764H250.106H249.442H248.772H248.097H247.417H246.732H246.042H245.346H244.645H243.939H243.229H242.513H241.792H241.067H240.336H239.601H238.861H238.117H237.367H236.613H235.855H235.092H234.325H233.553H232.777H231.996H231.211H230.422H229.629H228.831H228.03H227.224H226.415H225.601H224.783H223.962H223.136H222.307H221.474H220.638H219.797H218.954H218.106H217.255H216.401H215.543H214.681H213.816H212.948H212.077H211.203H210.325H209.444H208.56H207.673H206.783H205.89H204.994H204.096H203.194H202.29H201.383H200.473H199.561H198.646H197.728H196.808H195.886H194.961H194.034H193.104H192.172H191.238H190.301H189.363H188.422H187.48H186.535H185.588H184.64H183.689H182.737H181.783H180.827H179.869H178.91H177.949H176.987H176.023H175.057H174.09H173.122H172.153H171.182H170.209H169.236H168.261H167.286H166.309H165.331H164.352H163.373H162.392H161.41H160.428H159.445H158.461H157.476H156.491H155.506H154.519H153.532H152.545H151.558H150.569H149.581H148.592H147.604H146.615H145.625H144.636H143.647H142.657H141.668H140.679H139.689H138.701H137.712H136.723H135.735H134.747H133.76H132.773H131.786H130.8H129.815H128.83H127.846H126.862H125.879H124.897H123.916H122.936H121.957H120.978H120.001H119.025H118.049H117.075H116.103H115.131H114.161H113.192H112.224H111.258H110.293H109.33H108.368H107.408H106.45H105.493H104.538H103.585H102.633H101.684H100.736H99.7903H98.8466H97.9049H96.9653H96.0278H95.0925H94.1594H93.2286H92.3001H91.374H90.4502H89.5289H88.6101H87.6938H86.7801H85.8689H84.9605H84.0548H83.1518H82.2516H81.3543H80.4599H79.5684H78.6798H77.7943H76.9119H76.0326H75.1564H74.2834H73.4137H72.5472H71.6841H70.8244H69.9681H69.1153H68.266H67.4202H66.578H65.7395H64.9047H64.0736H63.2463H62.4228H61.6032H60.7875H59.9758H59.168H58.3643H57.5647H56.7693H55.978H55.1909H54.4082H53.6297H52.8556H52.0859H51.3206H50.5599H49.8037H49.052H48.305H47.5627H46.8251H46.0922H45.3642H44.641H43.9227H43.2093H42.501H41.7976H41.0993H40.4062H39.7182H39.0354H38.3579H37.6856H37.0188H36.3573H35.7012H35.0506H34.4055H33.766H33.1321H32.5038H31.8813H31.2645H30.6535H30.0483H29.449H29.2742C42.8874 86.2168 52.7678 81.2679 60.4783 74.4371C69.8293 66.153 75.9725 55.114 81.7215 44.1158C82.2294 43.1442 82.7342 42.1731 83.2377 41.2042C88.4428 31.1895 93.5228 21.4155 100.619 13.9219C108.386 5.71971 118.571 0.249993 134 0.25Z" stroke="#7582F4" stroke-opacity="0.5" stroke-width="0.5"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_509_1711" x="0.475189" y="0" width="285.832" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.458824 0 0 0 0 0.509804 0 0 0 0 0.956863 0 0 0 1 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_509_1711"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_509_1711" result="shape"/>
+                    </filter>
+                    <linearGradient id="paint0_linear_509_1711" x1="143.391" y1="0" x2="143.391" y2="88" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#262C51"/>
+                    <stop offset="1" stop-color="#3E3F74"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+            </div>
+        </section>
+        <!-- <div class="relative w-full h-[500px] bg-gradient-to-t from-[#3a3f54] mt-[-440px]"></div> -->
+    </div>
+</body>
+</html>
